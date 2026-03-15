@@ -1,0 +1,101 @@
+<svg width="1280" height="900" viewBox="0 0 1280 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="900" rx="32" fill="#0D1114"/>
+  <rect x="40" y="40" width="1200" height="820" rx="28" fill="url(#shell)" stroke="#262E33"/>
+  <rect x="74" y="74" width="1132" height="148" rx="24" fill="#151C20" stroke="#2C353B"/>
+  <text x="110" y="118" fill="#CFA86A" font-family="Segoe UI, sans-serif" font-size="18" letter-spacing="6">QUIET LUXURY EDITION</text>
+  <text x="110" y="178" fill="#F8F1E5" font-family="Georgia, serif" font-size="54" font-weight="700">Velvet Mines</text>
+  <text x="112" y="210" fill="#F8F1E5" fill-opacity="0.58" font-family="Segoe UI, sans-serif" font-size="22">Minimalist minesweeper with premium visual polish</text>
+
+  <rect x="880" y="100" width="132" height="86" rx="20" fill="#181F23" stroke="#313A40"/>
+  <rect x="1028" y="100" width="132" height="86" rx="20" fill="#181F23" stroke="#313A40"/>
+  <text x="946" y="132" text-anchor="middle" fill="#F8F1E5" fill-opacity="0.52" font-family="Segoe UI, sans-serif" font-size="14" letter-spacing="2">BEST</text>
+  <text x="1094" y="132" text-anchor="middle" fill="#F8F1E5" fill-opacity="0.52" font-family="Segoe UI, sans-serif" font-size="14" letter-spacing="2">WIN RATE</text>
+  <text x="946" y="168" text-anchor="middle" fill="#F8F1E5" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700">01:28</text>
+  <text x="1094" y="168" text-anchor="middle" fill="#F8F1E5" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700">71%</text>
+
+  <rect x="74" y="248" width="296" height="578" rx="24" fill="#151C20" stroke="#2C353B"/>
+  <text x="108" y="292" fill="#CFA86A" font-family="Segoe UI, sans-serif" font-size="18" letter-spacing="5">MODE SELECT</text>
+  <text x="108" y="340" fill="#F8F1E5" font-family="Georgia, serif" font-size="34" font-weight="700">难度与节奏</text>
+
+  <rect x="108" y="374" width="228" height="82" rx="20" fill="url(#activePanel)" stroke="#7B6740"/>
+  <rect x="108" y="470" width="228" height="82" rx="20" fill="#171E22" stroke="#313A40"/>
+  <rect x="108" y="566" width="228" height="82" rx="20" fill="#171E22" stroke="#313A40"/>
+  <text x="136" y="413" fill="#F8F1E5" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="26" font-weight="700">雅致</text>
+  <text x="136" y="440" fill="#F8F1E5" fill-opacity="0.58" font-family="Segoe UI, sans-serif" font-size="18">13 x 17 · 34 雷</text>
+  <text x="136" y="509" fill="#F8F1E5" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="26" font-weight="700">晨光</text>
+  <text x="136" y="536" fill="#F8F1E5" fill-opacity="0.58" font-family="Segoe UI, sans-serif" font-size="18">9 x 9 · 10 雷</text>
+  <text x="136" y="605" fill="#F8F1E5" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="26" font-weight="700">盛宴</text>
+  <text x="136" y="632" fill="#F8F1E5" fill-opacity="0.58" font-family="Segoe UI, sans-serif" font-size="18">16 x 24 · 68 雷</text>
+
+  <rect x="404" y="248" width="802" height="578" rx="24" fill="#151C20" stroke="#2C353B"/>
+  <text x="438" y="292" fill="#CFA86A" font-family="Segoe UI, sans-serif" font-size="18" letter-spacing="5">FIELD NOTES</text>
+  <text x="438" y="340" fill="#F8F1E5" font-family="Georgia, serif" font-size="34" font-weight="700">雅致模式</text>
+  <rect x="1052" y="278" width="118" height="42" rx="21" fill="#191F23" stroke="#313A40"/>
+  <text x="1111" y="306" text-anchor="middle" fill="#F8F1E5" fill-opacity="0.62" font-family="Segoe UI, sans-serif" font-size="14" letter-spacing="2">IN PLAY</text>
+
+  <g>
+    <rect x="438" y="380" width="76" height="76" rx="18" fill="url(#tileHidden)" stroke="#313A40"/>
+    <rect x="528" y="380" width="76" height="76" rx="18" fill="url(#tileHidden)" stroke="#313A40"/>
+    <rect x="618" y="380" width="76" height="76" rx="18" fill="url(#tileReveal)" stroke="#444C52"/>
+    <rect x="708" y="380" width="76" height="76" rx="18" fill="url(#tileReveal)" stroke="#444C52"/>
+    <rect x="798" y="380" width="76" height="76" rx="18" fill="url(#tileHidden)" stroke="#313A40"/>
+    <rect x="888" y="380" width="76" height="76" rx="18" fill="url(#tileHidden)" stroke="#313A40"/>
+    <rect x="978" y="380" width="76" height="76" rx="18" fill="url(#tileReveal)" stroke="#444C52"/>
+    <rect x="1068" y="380" width="76" height="76" rx="18" fill="url(#tileHidden)" stroke="#313A40"/>
+
+    <rect x="438" y="470" width="76" height="76" rx="18" fill="url(#tileReveal)" stroke="#444C52"/>
+    <rect x="528" y="470" width="76" height="76" rx="18" fill="url(#tileReveal)" stroke="#444C52"/>
+    <rect x="618" y="470" width="76" height="76" rx="18" fill="url(#tileReveal)" stroke="#444C52"/>
+    <rect x="708" y="470" width="76" height="76" rx="18" fill="url(#tileHidden)" stroke="#313A40"/>
+    <rect x="798" y="470" width="76" height="76" rx="18" fill="url(#tileReveal)" stroke="#444C52"/>
+    <rect x="888" y="470" width="76" height="76" rx="18" fill="url(#tileHidden)" stroke="#313A40"/>
+    <rect x="978" y="470" width="76" height="76" rx="18" fill="url(#tileReveal)" stroke="#444C52"/>
+    <rect x="1068" y="470" width="76" height="76" rx="18" fill="url(#tileReveal)" stroke="#444C52"/>
+
+    <rect x="438" y="560" width="76" height="76" rx="18" fill="url(#tileHidden)" stroke="#313A40"/>
+    <rect x="528" y="560" width="76" height="76" rx="18" fill="url(#tileReveal)" stroke="#444C52"/>
+    <rect x="618" y="560" width="76" height="76" rx="18" fill="url(#tileHidden)" stroke="#313A40"/>
+    <rect x="708" y="560" width="76" height="76" rx="18" fill="url(#tileReveal)" stroke="#444C52"/>
+    <rect x="798" y="560" width="76" height="76" rx="18" fill="url(#tileReveal)" stroke="#444C52"/>
+    <rect x="888" y="560" width="76" height="76" rx="18" fill="url(#tileHidden)" stroke="#313A40"/>
+    <rect x="978" y="560" width="76" height="76" rx="18" fill="url(#tileHidden)" stroke="#313A40"/>
+    <rect x="1068" y="560" width="76" height="76" rx="18" fill="url(#tileReveal)" stroke="#444C52"/>
+  </g>
+
+  <text x="656" y="426" text-anchor="middle" fill="#95D9D6" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">1</text>
+  <text x="746" y="426" text-anchor="middle" fill="#A8DDB5" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">2</text>
+  <text x="1016" y="426" text-anchor="middle" fill="#FFB5A2" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">4</text>
+  <text x="476" y="516" text-anchor="middle" fill="#A8DDB5" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">2</text>
+  <text x="566" y="516" text-anchor="middle" fill="#FFD08A" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">3</text>
+  <text x="656" y="516" text-anchor="middle" fill="#D8B5FF" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">6</text>
+  <text x="746" y="517" text-anchor="middle" fill="#F0D6A7" font-family="Segoe UI Symbol, Segoe UI, sans-serif" font-size="28">⚑</text>
+  <text x="836" y="516" text-anchor="middle" fill="#95D9D6" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">1</text>
+  <text x="926" y="517" text-anchor="middle" fill="#F0D6A7" font-family="Segoe UI Symbol, Segoe UI, sans-serif" font-size="28">⚑</text>
+  <text x="1016" y="516" text-anchor="middle" fill="#FFD08A" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">3</text>
+  <text x="1106" y="516" text-anchor="middle" fill="#FFB5A2" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">4</text>
+  <text x="566" y="607" text-anchor="middle" fill="#FFD08A" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">3</text>
+  <text x="656" y="607" text-anchor="middle" fill="#F0D6A7" font-family="Segoe UI Symbol, Segoe UI, sans-serif" font-size="28">⚑</text>
+  <text x="746" y="607" text-anchor="middle" fill="#D8B5FF" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">6</text>
+  <text x="836" y="607" text-anchor="middle" fill="#95D9D6" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">1</text>
+  <text x="926" y="607" text-anchor="middle" fill="#F0D6A7" font-family="Segoe UI Symbol, Segoe UI, sans-serif" font-size="28">✦</text>
+  <text x="1106" y="607" text-anchor="middle" fill="#A8DDB5" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">2</text>
+
+  <defs>
+    <linearGradient id="shell" x1="75" y1="41" x2="1212" y2="851" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171F24"/>
+      <stop offset="1" stop-color="#11161A"/>
+    </linearGradient>
+    <linearGradient id="activePanel" x1="108" y1="374" x2="336" y2="456" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B3225"/>
+      <stop offset="1" stop-color="#1E2429"/>
+    </linearGradient>
+    <linearGradient id="tileHidden" x1="476" y1="380" x2="476" y2="456" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2B3237"/>
+      <stop offset="1" stop-color="#1B2227"/>
+    </linearGradient>
+    <linearGradient id="tileReveal" x1="476" y1="470" x2="476" y2="546" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3A403F"/>
+      <stop offset="1" stop-color="#252B2F"/>
+    </linearGradient>
+  </defs>
+</svg>

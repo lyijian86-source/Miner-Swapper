@@ -1,0 +1,113 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" rx="36" fill="#0D1013"/>
+  <rect width="1280" height="640" rx="36" fill="url(#bgGlow)"/>
+  <circle cx="1098" cy="114" r="190" fill="url(#orbA)" fill-opacity="0.85"/>
+  <circle cx="145" cy="568" r="220" fill="url(#orbB)" fill-opacity="0.45"/>
+  <g opacity="0.18">
+    <path d="M0 112H1280" stroke="#F8F1E5"/>
+    <path d="M0 224H1280" stroke="#F8F1E5"/>
+    <path d="M0 336H1280" stroke="#F8F1E5"/>
+    <path d="M0 448H1280" stroke="#F8F1E5"/>
+    <path d="M0 560H1280" stroke="#F8F1E5"/>
+    <path d="M160 0V640" stroke="#F8F1E5"/>
+    <path d="M320 0V640" stroke="#F8F1E5"/>
+    <path d="M480 0V640" stroke="#F8F1E5"/>
+    <path d="M640 0V640" stroke="#F8F1E5"/>
+    <path d="M800 0V640" stroke="#F8F1E5"/>
+    <path d="M960 0V640" stroke="#F8F1E5"/>
+    <path d="M1120 0V640" stroke="#F8F1E5"/>
+  </g>
+
+  <rect x="58" y="54" width="1164" height="532" rx="30" fill="url(#glass)" stroke="url(#glassStroke)"/>
+
+  <text x="106" y="138" fill="#CFA86A" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="24" letter-spacing="9.6">MINER-SWAPPER</text>
+  <text x="104" y="232" fill="#F8F1E5" font-family="Georgia, Times New Roman, serif" font-size="76" font-weight="700">Velvet Mines</text>
+  <text x="106" y="292" fill="#F8F1E5" fill-opacity="0.74" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="28">
+    极简主义、轻奢质感、可直接分享的扫雷游戏
+  </text>
+  <text x="106" y="340" fill="#F8F1E5" fill-opacity="0.58" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22">
+    Download and play instantly. Push to GitHub. Ship as a beautiful desktop-friendly mini game.
+  </text>
+
+  <g filter="url(#panelShadow)">
+    <rect x="764" y="104" width="372" height="432" rx="28" fill="#12181B" fill-opacity="0.92" stroke="#2A3237"/>
+    <rect x="792" y="132" width="316" height="72" rx="22" fill="#161D20" stroke="#2A3237"/>
+    <text x="820" y="161" fill="#CFA86A" font-family="Segoe UI, sans-serif" font-size="14" letter-spacing="4.2">QUIET LUXURY EDITION</text>
+    <text x="820" y="188" fill="#F8F1E5" font-family="Georgia, serif" font-size="28" font-weight="700">Velvet Mines</text>
+
+    <rect x="792" y="226" width="92" height="92" rx="18" fill="url(#tileHidden)" stroke="#30383E"/>
+    <rect x="895" y="226" width="92" height="92" rx="18" fill="url(#tileHidden)" stroke="#30383E"/>
+    <rect x="998" y="226" width="92" height="92" rx="18" fill="url(#tileReveal)" stroke="#40484E"/>
+    <rect x="792" y="329" width="92" height="92" rx="18" fill="url(#tileReveal)" stroke="#40484E"/>
+    <rect x="895" y="329" width="92" height="92" rx="18" fill="url(#tileReveal)" stroke="#40484E"/>
+    <rect x="998" y="329" width="92" height="92" rx="18" fill="url(#tileHidden)" stroke="#30383E"/>
+    <rect x="792" y="432" width="92" height="92" rx="18" fill="url(#tileHidden)" stroke="#30383E"/>
+    <rect x="895" y="432" width="92" height="92" rx="18" fill="url(#tileReveal)" stroke="#40484E"/>
+    <rect x="998" y="432" width="92" height="92" rx="18" fill="url(#tileReveal)" stroke="#40484E"/>
+
+    <text x="836" y="284" text-anchor="middle" fill="#F0D6A7" font-family="Segoe UI Symbol, Segoe UI, sans-serif" font-size="32">⚑</text>
+    <text x="1044" y="285" text-anchor="middle" fill="#95D9D6" font-family="Segoe UI, sans-serif" font-size="32" font-weight="700">1</text>
+    <text x="836" y="387" text-anchor="middle" fill="#A8DDB5" font-family="Segoe UI, sans-serif" font-size="32" font-weight="700">2</text>
+    <text x="941" y="387" text-anchor="middle" fill="#FFD08A" font-family="Segoe UI, sans-serif" font-size="32" font-weight="700">3</text>
+    <text x="1044" y="387" text-anchor="middle" fill="#F0D6A7" font-family="Segoe UI Symbol, Segoe UI, sans-serif" font-size="30">✦</text>
+    <text x="836" y="490" text-anchor="middle" fill="#F0D6A7" font-family="Segoe UI Symbol, Segoe UI, sans-serif" font-size="32">⚑</text>
+    <text x="941" y="490" text-anchor="middle" fill="#FFB5A2" font-family="Segoe UI, sans-serif" font-size="32" font-weight="700">4</text>
+    <text x="1044" y="490" text-anchor="middle" fill="#A8DDB5" font-family="Segoe UI, sans-serif" font-size="32" font-weight="700">2</text>
+  </g>
+
+  <rect x="106" y="402" width="240" height="62" rx="31" fill="url(#buttonFill)"/>
+  <text x="226" y="442" text-anchor="middle" fill="#17130D" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="24" font-weight="700">Play Instantly</text>
+
+  <rect x="366" y="402" width="268" height="62" rx="31" fill="#171C20" stroke="#3A444B"/>
+  <text x="500" y="442" text-anchor="middle" fill="#F8F1E5" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22">GitHub Pages Ready</text>
+
+  <text x="108" y="520" fill="#F8F1E5" fill-opacity="0.46" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="18">
+    Windows-friendly launch script included · release zip included · easy to keep polishing later
+  </text>
+
+  <defs>
+    <linearGradient id="bgGlow" x1="101" y1="33" x2="1153" y2="622" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A2328"/>
+      <stop offset="0.55" stop-color="#0E1215"/>
+      <stop offset="1" stop-color="#151B1F"/>
+    </linearGradient>
+    <radialGradient id="orbA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1098 114) rotate(90) scale(190)">
+      <stop stop-color="#D7BA7D"/>
+      <stop offset="1" stop-color="#D7BA7D" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(145 568) rotate(90) scale(220)">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="90" y1="76" x2="1179" y2="567" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#182025" stop-opacity="0.94"/>
+      <stop offset="1" stop-color="#11161A" stop-opacity="0.82"/>
+    </linearGradient>
+    <linearGradient id="glassStroke" x1="74" y1="54" x2="1222" y2="586" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#374046"/>
+      <stop offset="1" stop-color="#252D32"/>
+    </linearGradient>
+    <linearGradient id="tileHidden" x1="838" y1="226" x2="838" y2="318" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2B3237"/>
+      <stop offset="1" stop-color="#1B2227"/>
+    </linearGradient>
+    <linearGradient id="tileReveal" x1="838" y1="329" x2="838" y2="421" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3A403F"/>
+      <stop offset="1" stop-color="#252B2F"/>
+    </linearGradient>
+    <linearGradient id="buttonFill" x1="106" y1="402" x2="346" y2="464" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7BA7D"/>
+      <stop offset="1" stop-color="#F2D69C"/>
+    </linearGradient>
+    <filter id="panelShadow" x="730" y="82" width="440" height="496" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="10"/>
+      <feGaussianBlur stdDeviation="17"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.34 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+    </filter>
+  </defs>
+</svg>
