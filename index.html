@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101416" />
+    <title>Velvet Mines | 轻奢极简扫雷</title>
+    <link rel="icon" type="image/svg+xml" href="assets/icon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-ambience="champagne">
+    <div class="backdrop" aria-hidden="true">
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
+      <div class="mesh"></div>
+    </div>
+
+    <div class="app-shell">
+      <header class="hero panel">
+        <div class="hero-copy">
+          <p class="eyebrow">Quiet Luxury Edition</p>
+          <h1>Velvet Mines</h1>
+          <p class="lead">
+            极简、克制、带一点轻奢锋芒的扫雷。
+            <span>下载仓库后双击即可开玩，也能一键发布到 GitHub Pages。</span>
+          </p>
+        </div>
+
+        <div class="hero-metrics">
+          <article class="metric-card">
+            <span class="metric-label">当前最好</span>
+            <strong class="metric-value" id="bestBadge">--</strong>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">连胜纪录</span>
+            <strong class="metric-value" id="streakBadge">0</strong>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">胜率</span>
+            <strong class="metric-value" id="winRateBadge">--</strong>
+          </article>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="controls panel">
+          <div class="section-title">
+            <p class="eyebrow">Mode Select</p>
+            <h2>难度与节奏</h2>
+          </div>
+
+          <div class="difficulty-group" id="difficultyGroup" aria-label="难度选择"></div>
+
+          <div class="stats-grid">
+            <article class="stat-tile">
+              <span class="tile-label">剩余雷数</span>
+              <strong class="tile-value" id="minesValue">000</strong>
+            </article>
+            <article class="stat-tile">
+              <span class="tile-label">用时</span>
+              <strong class="tile-value" id="timerValue">00:00</strong>
+            </article>
+            <article class="stat-tile">
+              <span class="tile-label">本模式最好</span>
+              <strong class="tile-value" id="bestValue">--</strong>
+            </article>
+          </div>
+
+          <div class="status-card">
+            <p class="status-kicker">状态</p>
+            <p class="status-line" id="statusLine">棋盘已就绪，挑一块顺眼的区域开始。</p>
+            <p class="status-hint">
+              桌面端右键插旗，移动端长按插旗；点击已揭开的数字可快速展开周围格子。
+            </p>
+          </div>
+
+          <div class="session-grid">
+            <article class="session-card">
+              <span class="session-label">总胜局</span>
+              <strong class="session-value" id="winsValue">0</strong>
+            </article>
+            <article class="session-card">
+              <span class="session-label">当前连胜</span>
+              <strong class="session-value" id="streakValue">0</strong>
+            </article>
+            <article class="session-card">
+              <span class="session-label">总败局</span>
+              <strong class="session-value" id="lossesValue">0</strong>
+            </article>
+          </div>
+
+          <div class="action-row">
+            <button class="primary-button" id="restartButton" type="button">重新开始</button>
+            <button class="ghost-button" id="ambienceButton" type="button">切换夜幕氛围</button>
+          </div>
+        </section>
+
+        <section class="board-panel panel">
+          <div class="board-toolbar">
+            <div>
+              <p class="eyebrow">Field Notes</p>
+              <h2 id="modeLabel">雅致模式</h2>
+            </div>
+            <span class="status-pill" id="boardPill">Ready</span>
+          </div>
+
+          <div class="board-frame" id="boardFrame">
+            <div class="board" id="board" aria-label="扫雷棋盘"></div>
+
+            <div class="overlay hidden" id="overlay" aria-live="polite">
+              <div class="overlay-card">
+                <p class="overlay-kicker" id="overlayKicker">Victory</p>
+                <h3 id="overlayTitle">这一局很漂亮</h3>
+                <p id="overlayCopy">继续保持这份冷静判断。</p>
+                <button class="primary-button" id="overlayButton" type="button">再来一局</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
