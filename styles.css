@@ -12,9 +12,11 @@
   --danger: #e0a49a;
   --grid-gap: 10px;
   --cell-size: 42px;
-  --cell-hidden: linear-gradient(180deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.04));
-  --cell-revealed: linear-gradient(180deg, rgba(255, 248, 234, 0.18), rgba(255, 248, 234, 0.08));
+  --cell-hidden: linear-gradient(180deg, rgba(66, 74, 80, 0.88), rgba(28, 34, 39, 0.94));
+  --cell-revealed: linear-gradient(180deg, rgba(246, 238, 224, 0.24), rgba(213, 202, 183, 0.12));
   --cell-border: rgba(255, 255, 255, 0.08);
+  --cell-hidden-border: rgba(255, 255, 255, 0.1);
+  --cell-revealed-border: rgba(236, 220, 189, 0.22);
   --surface: rgba(255, 255, 255, 0.035);
 }
 
@@ -386,7 +388,7 @@ select {
   position: relative;
   width: var(--cell-size);
   height: var(--cell-size);
-  border: 1px solid var(--cell-border);
+  border: 1px solid var(--cell-hidden-border);
   border-radius: 16px;
   background: var(--cell-hidden);
   color: var(--text);
@@ -394,7 +396,8 @@ select {
   font-weight: 700;
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.08),
-    0 12px 24px rgba(0, 0, 0, 0.15);
+    inset 0 -1px 0 rgba(0, 0, 0, 0.24),
+    0 14px 26px rgba(0, 0, 0, 0.2);
   transition:
     transform 140ms ease,
     background 140ms ease,
@@ -413,9 +416,10 @@ select {
 
 .cell.is-revealed {
   background: var(--cell-revealed);
+  border-color: var(--cell-revealed-border);
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.06),
-    inset 0 0 0 1px rgba(255, 255, 255, 0.035);
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05);
 }
 
 .cell.is-revealed:hover {
